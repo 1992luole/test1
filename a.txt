@@ -1,4 +1,3 @@
-
 一. 第一次安装 
 设置name 和email
 git config --global user.name "luo"
@@ -18,17 +17,26 @@ git add ./回车
 git commit -m "备注一定要写"
 
 如果没有写 -m "" 会进入一个编辑窗口 退出
-:q!
+esc键:q!	或关闭窗口重启窗口
 
 直接将文件从工作区放入版本库
 git commit --all -m "总备注"
 
 五.查看状态
 git status
-  modified: a.text 
+  modified: a.text  
 红色在工作区
 绿色在暂存区
 工作区干净 working directory clean 是在版本库
 
-六.
+六.清屏 clear 
+上下箭头复制代码
+
+七.忽略文件
+在项目根目录下建一个文件 .gitignore
+在这个文件里
+  /.idea       忽略.idea文件
+  /.gitignore  忽略 自己
+  /js          忽略js文件夹
+  /js/*.js     忽略js文件夹下的所有.js文件
 
