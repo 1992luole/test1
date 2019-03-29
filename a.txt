@@ -1,2 +1,34 @@
-这是第一个功能
-This is dog.
+
+一. 第一次安装 
+设置name 和email
+git config --global user.name "luo"
+git config --global user.email "****@**.com"
+
+二. 在项目根目录下打开 git软件
+初始化 
+git init
+
+三. 将文件放在 暂存区
+git add 路径(./a.index)
+
+当前文件下全部修改或新增的文件一次性放入
+git add ./回车
+
+四. 将文件从暂存区放入 版本库
+git commit -m "备注一定要写"
+
+如果没有写 -m "" 会进入一个编辑窗口 退出
+:q!
+
+直接将文件从工作区放入版本库
+git commit --all -m "总备注"
+
+五.查看状态
+git status
+  modified: a.text 
+红色在工作区
+绿色在暂存区
+工作区干净 working directory clean 是在版本库
+
+六.
+
