@@ -61,7 +61,10 @@ git checkout 分支名
 3.正常写代码 提交 
 4.切换到主分支
 5.合并分支 
-git merge 分支名    updating 版本号说明成功
+git merge 分支名    updating 版本号  说明成功
+
+合并冲突
+另个分支同时修改相同代码
 
 
 
